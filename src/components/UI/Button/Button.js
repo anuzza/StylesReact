@@ -1,6 +1,8 @@
 import react from "react";
 import styles from './Button.module.css';
 
+
+
 // import styled from 'styled-components'
 
 // const Button = styled.button`
@@ -32,7 +34,7 @@ import styles from './Button.module.css';
 
 
 
-
+//.button includes everything in the css file
 const Button = props => {
   return (
     <button type={props.type} className={styles.button} onClick={props.onClick}>
